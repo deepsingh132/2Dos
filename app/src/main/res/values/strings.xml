@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">2 Do\'s</string>
+    <string name="title_activity_new_task">NewTaskAct</string>
+
+    <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
+    <string name="facebook_app_id">174526740110827</string>
+    <string name="fb_login_protocol_scheme">fb174526740110827</string>
+
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+    <string name="credits">
+        App Credits and Dependencies\n\n
+Released: May, 2020\n
+\n
+    \nLanguage: Java\n
+    \nProgrammer: Mandeep Singh\n
+    \nDatabase: Firebase\n
+    \nDatabase Provider: Google\n
+\n\n
+\nMaterialDrawer Team: MikePenz,
+  \n\n              Site: github.com/MikePenz
+\n
+\nGraphics Team
+  \n\n     Icons: AndroidIconics Library
+    \n\n    Material Icons
+      \n\n  Octicons Library
+        \n\n Flaticons
+        \n\nFreepik Vectors
+
+\n\n
+Dependencies:-
+\n
+Framework: Android Framework Provided by Google
+  \n\n      SDK: Android SDK Targeted at min 29 update
+    \n\n    Compile SDK Ver: 28
+      \n\n  Target SDK: 29
+
+\n\nVersion Info
+
+\nApplication Id: com.hackbaba.Doto
+
+\n\nLibraries
+
+\n\nAndroidx AppCompat
+\n\nMaterial Library
+\n\nFragment Library For com.fragment.manager
+\n\nSdp Library For Responsive Design
+\n\nConstraint Library For Constraint Layouts
+\n\nAndroid CardView
+\n\nCustom Tabs Library
+\n\nEspresso-Core Library
+\n\nMikepenz MaterialDrawer Library
+\n\nFontawesome Library For SVG Type Fonts
+\n\nOcticons Library For Material Icons
+\n
+\nProduct Flavors:-
+  \n\n \n strawberry:
+    \n    dimension "icecream"
+      \n  applicationIdSuffix ".strawberry"
+
+  \n\n  \nchocolate:
+      \n  dimension "icecream"
+        \napplicationIdSuffix ".chocolate"
+
+    \n\n\nvanilla:
+      \n  dimension "icecream"
+        \napplicationIdSuffix ".vanilla"
+
+\n\nBuild Variants: Debug,Release
+\n\nOriginal Website Development: Github Support Library
+\n\nLicensing Information
+
+\n\nMandeep Singh
+\nStudent Of UIC
+\nChandigarh University
+
+\n\nCopyright 2020 Mandeep Singh
+
+
+
+\n\nInformal citations should include the website name, URL (provide the specific URL of the page you’re citing, as appropriate), and the Developer’s name. For example: “ All About 2Dos website, www.deepsingh132.github.io/2Dos, © HACK BABA INC..”
+\n\nFor inclusion in a formal Literature Cited section, cite in the following manner, providing specific page names and URLs as appropriate:
+\n\n Chandigarh University,Gharuan, Punjab . Accessed on May,2020.
+
+\n\nAvailable for everyone,
+\n\nfunded by Caffeine !
+
+  \n\n\n\n\n\n\n\n \n\n\n HackBaba Inc.2020
+        \nAll Rights Reserved.
+
+</string>
+
+
+</resources>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:background="@color/md_red_700"
+    android:id="@+id/textLayout"
+    tools:context=".MainActivity">
+
+
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="198dp"
+        android:id="@+id/title"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/titlepage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:layout_marginBottom="18dp"
+                android:text="Edit Task Details"
+                android:textAlignment="center"
+                android:textColor="@color/yellow"
+                android:textSize="26sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/yellow" />
+
+        </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            app:cardMaxElevation="150dp"
+            android:layout_height="0dp"
+
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="138dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="30dp"
+            android:elevation="100dp"
+            android:orientation="vertical"
+            app:cardCornerRadius="13dp"
+            app:layout_constraintBottom_toTopOf="@+id/btnDelete"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/title">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/addtitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Add Title"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/titledoes"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:background="@drawable/bginputtask"
+                    android:hint="What ?"
+                    android:inputType="text"
+                    android:paddingLeft="12dp"
+                    android:textColor="@color/orange"
+                    android:textColorHint="#B5B5B5" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="140dp"
+                android:layout_marginRight="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/adddesc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Description"
+                    android:textColor="@color/YELLOW"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/descdoes"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+
+                    android:background="@drawable/bginputtask"
+                    android:hint="How ?"
+                    android:inputType="text"
+                    android:maxLength="25"
+                    android:paddingLeft="12dp"
+                    android:textColor="@color/orange"
+                    android:textColorHint="#B5B5B5" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="250dp"
+                android:layout_marginRight="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/adddate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Time"
+                    android:textColor="@color/orange"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/datedoes"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:background="@drawable/bginputtask"
+                    android:hint="When ?"
+                    android:inputType="text"
+                    android:paddingLeft="12dp"
+                    android:textColor="@color/orange"
+                    android:textColorHint="#B5B5B5" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <!--<Button
+        android:id="@+id/btnSaveUpdate"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:text="Update"
+        android:textColor="@color/yellow"
+        android:textAllCaps="false"
+        android:background="@drawable/bgbtncreate"
+        android:textSize="22sp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp" /> -->
+
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="150dp"
+            android:background="@drawable/bgbtncancel"
+            android:text="Delete"
+            android:textAllCaps="false"
+            android:textColor="#AFAFAF"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

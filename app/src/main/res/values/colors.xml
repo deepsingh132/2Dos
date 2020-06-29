@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#FF0000</color>
+    <color name="colorSecondaryDark">#003366</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="black">#000</color>
+    <color name="white">#FFF</color>
+    <color name="violet">#9400D3</color>
+    <color name="indigo">#4B0082</color>
+    <color name="blue">#0000FF</color>
+    <color name="green">#00FF00</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="orange">#FF7F00</color>
+
+    <color name="com_facebook_button_background_color_focused_disabled">#3C5A99</color>
+    <color name="com_facebook_button_background_color_focused">#3C5A99</color>
+    <color name="com_facebook_button_border_color_focused">#3C5A99</color>
+
+    <!--colors for modern ui-->
+    <color name="whiteTextColor">#fff</color>
+    <color name="primaryTextColor">#2661FA</color>
+    <color name="loginBkColor">#f0f0f0</color>
+
+    <!--colros for card-->
+    <color name="whiteCardColor">#fff</color>
+
+
+    <!-- Material Drawer -->
+    <!-- Material DEFAULT colors -->
+    <color name="material_drawer_primary">@color/primary</color>
+    <color name="material_drawer_primary_dark">@color/primary_dark</color>
+    <color name="material_drawer_primary_light">@color/primary_light</color>
+    <color name="material_drawer_accent">@color/accent</color>
+    <!-- OVERWRITE THESE COLORS FOR A LIGHT THEME -->
+    <!-- MaterialDrawer DEFAULT colors -->
+    <color name="material_drawer_background">#F9F9F9</color>
+    <!-- Material DEFAULT text / items colors -->
+    <color name="material_drawer_icons">#FFF</color>
+    <color name="material_drawer_primary_text">#DE000000</color>
+    <color name="material_drawer_primary_icon">#8A000000</color>
+    <color name="material_drawer_secondary_text">#8A000000</color>
+    <color name="material_drawer_hint_text">#42000000</color>
+    <color name="material_drawer_divider">#1F000000</color>
+    <!-- Material DEFAULT drawer colors -->
+    <color name="material_drawer_selected">@color/md_red_100</color>
+    <color name="material_drawer_selected_text">@color/colorAccent</color>
+    <color name="material_drawer_header_selection_text">#FFF</color>
+    <!-- OVERWRITE THESE COLORS FOR A DARK THEME -->
+    <!-- MaterialDrawer DEFAULT DARK colors -->
+    <color name="material_drawer_dark_background">#303030</color>
+    <!-- MaterialDrawer DEFAULT DARK text / items colors -->
+    <color name="material_drawer_dark_icons">#000</color>
+    <color name="material_drawer_dark_primary_text">#DEFFFFFF</color>
+    <color name="material_drawer_dark_primary_icon">#8AFFFFFF</color>
+    <color name="material_drawer_dark_secondary_text">#8AFFFFFF</color>
+    <color name="material_drawer_dark_hint_text">#42FFFFFF</color>
+    <color name="material_drawer_dark_divider">#1FFFFFFF</color>
+    <!-- MaterialDrawer DEFAULT DARK drawer colors -->
+    <color name="material_drawer_dark_selected">#202020</color>
+    <color name="material_drawer_dark_selected_text">@color/material_drawer_primary</color>
+    <color name="material_drawer_dark_header_selection_text">#FFF</color>
+
+
+    //For Register Activity
+
+    <!--normal colors-->
+    <color name="darkTextColor">#020000</color>
+    <color name="themeColor">#11CFC5</color>
+
+
+    <!--colors for light mode-->
+    <color name="contentTextColor">#020000</color>
+    <color name="register_bk_color">#11CFC5</color>
+    <color name="login_bk_color">#fff</color>
+
+    <color name="ORANGE">#FF8C00</color>
+
+    <color name="YELLOW">#FFFF00</color>
+
+
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="background">#e5e5e5</color>
+    <color name="half_black">#808080</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="pink">#e91e63</color>
+    <color name="pink_pressed">#ec407a</color>
+    <color name="blue_semi_transparent">#805677fc</color>
+    <color name="blue_semi_transparent_pressed">#80738ffe</color>
+
+
+    <color name="colorTransBg">#99000000</color>
+
+
+
+    <integer-array name="loadColors">
+        <item>@color/holo_yellow_dark</item>
+        <item>@color/holo_red_dark</item>
+        <item>@color/md_deep_orange_A700</item>
+    </integer-array>
+
+    <integer-array name="google">
+
+        <item>@color/gplus1</item>
+        <item>@color/gplus2</item>
+        <item>@color/gplus3</item>
+        <item>@color/gplus4</item>
+    </integer-array>
+
+    //For Progress Bar
+    <integer-array name="colors">
+        <item>@color/holo_blue_dark</item>
+        <item>@color/holo_yellow_dark</item>
+        <item>@color/holo_green_dark</item>
+        <item>@color/holo_purple_dark</item>
+        <item>@color/holo_red_dark</item>
+    </integer-array>
+
+    <integer-array name="gplus_colors">
+        <item>@color/gplus_color_1</item>
+        <item>@color/gplus_color_2</item>
+        <item>@color/gplus_color_3</item>
+        <item>@color/gplus_color_4</item>
+    </integer-array>
+
+    <integer-array name="pocket_bar_colors">
+        <item>@color/pocket_color_1</item>
+        <item>@color/pocket_color_1</item>
+        <item>@color/pocket_color_1</item>
+        <item>@color/pocket_color_1</item>
+        <item>@color/pocket_color_2</item>
+        <item>@color/pocket_color_2</item>
+        <item>@color/pocket_color_2</item>
+        <item>@color/pocket_color_2</item>
+        <item>@color/pocket_color_3</item>
+        <item>@color/pocket_color_3</item>
+        <item>@color/pocket_color_3</item>
+        <item>@color/pocket_color_3</item>
+        <item>@color/pocket_color_4</item>
+        <item>@color/pocket_color_4</item>
+        <item>@color/pocket_color_4</item>
+        <item>@color/pocket_color_4</item>
+    </integer-array>
+
+    <integer-array name="pocket_background_colors">
+        <item>@color/pocket_color_1</item>
+        <item>@color/pocket_color_2</item>
+        <item>@color/pocket_color_3</item>
+        <item>@color/pocket_color_4</item>
+    </integer-array>
+
+    <color name="pocket_color_1">#85edb9</color>
+    <color name="pocket_color_2">#34bdb7</color>
+    <color name="pocket_color_3">#ee4458</color>
+    <color name="pocket_color_4">#fcb74d</color>
+
+    <color name="gplus_color_1">#3e802f</color>
+    <color name="gplus_color_2">#f4b400</color>
+    <color name="gplus_color_3">#427fed</color>
+    <color name="gplus_color_4">#b23424</color>
+
+    <color name="holo_blue_dark">#0099cc</color>
+    <color name="holo_yellow_dark">#ff8800</color>
+    <color name="holo_green_dark">#669900</color>
+    <color name="holo_purple_dark">#9933cc</color>
+    <color name="holo_red_dark">#cc0000</color>
+
+    //status bar
+    <color name="status">#FF7878</color>
+    <color name="gplus1">#4885ed</color>
+    <color name="gplus2">#db3236</color>
+    <color name="gplus3">#f4c20d</color>
+    <color name="gplus4">#3cba54</color>
+    <color name="RED">#ED0000</color>>
+
+</resources>

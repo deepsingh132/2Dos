@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "605347239311",
+    "firebase_url": "https://to-do-e83db.firebaseio.com",
+    "project_id": "to-do-e83db",
+    "storage_bucket": "to-do-e83db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605347239311:android:0c4e57fa5cd1b55b",
+        "android_client_info": {
+          "package_name": "com.hackbaba.Doto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605347239311-h0morp4c71k169kbelkqkkl1b6eailir.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hackbaba.Doto",
+            "certificate_hash": "2518c70438338009c063d7eef8308bb99785389a"
+          }
+        },
+        {
+          "client_id": "605347239311-fldenkqvcut04r71o7j29sjifl381tco.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzcKYdUJmCeDuh-SVfOFfbmtfrSNq7shs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "605347239311-fldenkqvcut04r71o7j29sjifl381tco.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
